@@ -1,0 +1,53 @@
+.feed-container{
+  max-width:900px;
+  margin:auto;
+  padding:30px;
+  font-family:Arial;
+}
+
+.category-section{
+  margin-bottom:30px;
+}
+
+.categories{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.category-tag{
+  background:#eef2ff;
+  padding:8px 14px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+.articles-section h2{
+  margin-bottom:15px;
+}
+
+.articles-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.article-card{
+  border:1px solid #ddd;
+  padding:20px;
+  border-radius:10px;
+  transition:0.2s;
+}
+
+.article-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.read-btn{
+  display:inline-block;
+  margin-top:10px;
+  color:#4f46e5;
+  text-decoration:none;
+  font-weight:600;
+}
